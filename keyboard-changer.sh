@@ -1,2 +1,7 @@
 printf '\e[2J'
-sleep 10
+
+while true
+do
+    echo "test\n"
+    sleep 1
+done
