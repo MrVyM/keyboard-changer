@@ -1,7 +1,9 @@
+printf '\e[?1049h'
+
 printf '\e[2J'
 
 while true
 do
-    echo "test\n"
-    sleep 1
+    read -n1 
+    echo $REPLY 
 done
